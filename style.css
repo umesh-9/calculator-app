@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0%;
+  background-color: rgb(173, 228, 246);
+}
+
+section {
+  text-align: center;
+}
+#search {
+  padding: 9px;
+}
+#btn {
+  margin-top: 30px;
+  padding: 10px;
+  color: black;
+  background-color: whitesmoke;
+  font-weight: 900;
+  border-radius: 5px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+}
+ul li {
+  border: 1px solid black;
+  width: 300px;
+  text-align: start;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 2px;
+  background-color: white;
+  cursor: pointer;
+}
